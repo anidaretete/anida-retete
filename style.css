@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff7ed;
+}
+
+/* MENIU */
+
+/* TITLURI */
+h1 {
+    text-align: center;
+    color: #92400e;
+    margin-top: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+/* CARD RETETA */
+.card {
+    background: white;
+    max-width: 750px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+/* LINK YOUTUBE */
+.youtube-link {
+    text-align: center;
+    margin: 15px 0 25px;
+}
+
+.youtube-link a {
+    background: #dc2626;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.youtube-link a:hover {
+    background: #b91c1c;
+}
+
+/* LISTE */
+h2, h3 {
+    color: #92400e;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #6b7280;
+}
