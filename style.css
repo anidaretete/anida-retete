@@ -1,142 +1,77 @@
 body {
     margin: 0;
-    font-family: 'Georgia', serif;
-    font-size: 18px;
+    font-family: Arial, sans-serif;
     background-color: #fff7ed;
-    color: #374151;
-    display: flex;
-    justify-content: center;
 }
 
-.container {
-    width: 100%;
-    max-width: 500px;
-    padding: 10px;
+/* MENIU */
+
+/* TITLURI */
+h1 {
+    text-align: center;
+    color: #92400e;
+    margin-top: 30px;
 }
 
-/* CHENAR PRINCIPAL */
+.subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+/* CARD RETETA */
 .card {
-    background: transparent;
-    padding: 15px;
+    background: white;
+    max-width: 750px;
+    margin: auto;
+    padding: 25px;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    text-align: 0 px ;
 }
 
-/* POZA PRINCIPALĂ */
-.poza-sus {
-    width: 50%; /* mai mică */
-    max-width: 500px;
+.card img {
+    width: 70%;
+    display: block;
     margin: auto;
-    display: auto;
     border-radius: 12px;
 }
 
 /* LINK YOUTUBE */
 .youtube-link {
-    margin:15px 0 25px ;
+    text-align: center;
+    margin: 15px 0 25px;
 }
 
 .youtube-link a {
-    background: linear-gradient(90deg, #f87171, #dc2626);
+    background: #dc2626;
     color: white;
-    padding: 12px 18px;
-    border-radius: 10px;
-    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 8px;
     text-decoration: none;
-    transition: 0.3s;
+    font-weight: bold;
 }
 
 .youtube-link a:hover {
-    transform: scale(1.05);
-    background: linear-gradient(90deg, #b91c1c, #7f1d1d);
-}
-
-/* TITLURI */
-h1 {
-    color: #b91c1c;
-    font-size: 32px;
-    margin-bottom: 15px;
-}
-
-h2 {
-    color: #92400e;
-    margin-top: 20px;
+    background: #b91c1c;
 }
 
 /* LISTE */
+h2, h3 {
+    color: #92400e;
+}
+
 ul {
     list-style: none;
     padding-left: 0;
-    text-align: auto;
 }
 
 ul li {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
-/* PAȘI VERTICALI (mobil) */
-.pas-vertical {
-    display: auto;
-    flex-direction: column;
-    align-items: auto;
-    margin-bottom: 20px;
-}
-
-.pas-vertical img {
-    width: 80%;
-    max-width: 250px;
-    border-radius: 12px;
-    margin-bottom: 10px;
-}
-
-.pas-vertical p {
-    margin: 0;
-    line-height: 1.5;
-}
-
-/* PAȘI MULTIPLE (scrollable pe mobil) */
-.pas-vertical-multiple {
-    display: auto;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.pas-vertical-multiple img {
-    width: 80%;
-    max-width: 500px;
-    border-radius: 12px;
-    margin-bottom: 5px;
-}
-
-.pas-vertical-multiple p {
-    margin: 0;
-    line-height: 1.5;
-}
-
-/* MEDIA QUERY pentru desktop */
-@media(min-width: 768px){
-    .pas-vertical {
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 15px;
-        justify-content: center;
-    }
-
-    .pas-vertical img, .pas-vertical-multiple img {
-        width: 150px;
-        height: 150px;
-        margin-bottom: 0;
-    }
-
-    .pas-vertical p, .pas-vertical-multiple p {
-        max-width: 500px;
-        text-align: left;
-    }
-
-    .pas-vertical-multiple {
-        flex-direction: row;
-        gap: 10px;
-    }
+/* FOOTER */
+footer {
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #6b7280;
 }
